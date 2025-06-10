@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <title>About - Deez Hot Pot</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Raleway"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="css/jquery.timepicker.css" />
+
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <div id="overlay" onclick="closeMenu()" ></div>
+
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
+    >
+      <div class="container">
+           <a class="navbar-brand" href="index.html">
+  <img src="images/logo1.png" alt="Deez Hot Pot Logo" style="height: 100px; width:100px; padding-bottom: 20px;">
+</a>   
+
+        <button class="navbar-toggler" type="button" onclick="openMenu()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="reservation.html" class="nav-link">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="testimonials.html" class="nav-link">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="ftco-section" id="section-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-7 col-lg-6 ftco-animate mb-5">
+            <h3 class="ftco-sub-title">Welcome</h3>
+            <h2 class="ftco-primary-title display-4">Our Story</h2>
+            <p>
+              Deez Hotpot is a vibrant catering company specializing in
+              authentic Nigerian traditional cuisine, bringing the rich flavors
+              and cultural heritage of Nigeria to every event. From hearty stews
+              and flavorful soups to sizzling grilled meats and freshly made
+              Abula, our diverse menu is a true celebration of Nigerian culinary
+              traditions. Whether you're planning a wedding, corporate event,
+              family gathering, or any special occasion,
+            </p>
+            <p class="mb-4">
+              Deez Hotpot delivers a memorable dining experience with
+              mouthwatering dishes prepared using the finest ingredients and
+              time-honored recipes. We pride ourselves on our attention to
+              detail, exceptional customer service, and commitment to making
+              your event unforgettable with the bold and delicious tastes of
+              Nigeria.
+            </p>
+          </div>
+
+          <div
+            class="col col-md-5 col-lg-6 ftco-animate img"
+            data-animate-effect="fadeInRight"
+          >
+            <img src="images/abula3.jpg" alt="Deez Hot Pot Inc" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+
+    <script>
+      function openMenu() {
+        document.getElementById("ftco-nav").classList.add("show");
+        document.getElementById("section-about").classList.add("blur");
+        document.getElementById("overlay").style.display = "block";
+      }
+    
+      function closeMenu() {
+        document.getElementById("ftco-nav").classList.remove("show");
+        document.getElementById("section-about").classList.remove("blur");
+        document.getElementById("overlay").style.display = "none";
+      }
+    </script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+
+    <script src="js/jquery.animateNumber.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
